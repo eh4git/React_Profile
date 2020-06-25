@@ -1,0 +1,110 @@
+
+/* Google fonts: 
+All text
+font-family: 'Cabin', sans-serif;
+Title text
+font-family: 'Pacifico', cursive; */
+p{
+    font-size: larger;
+    font-family: 'Cabin', sans-serif;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: whitesmoke;
+    background-color: rgba(57, 85, 63, 0.753);
+    margin-bottom: 0;
+    padding: 20px;
+} 
+h2{ 
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;                  
+}   
+h4{
+   font-family: 'Pacifico', cursive;
+}                 
+li{
+  font-family: 'Cabin', sans-serif;
+  display: block;
+  font-size: 20px;
+}
+a{
+  font-family: 'Cabin', sans-serif;
+  font-size:17px;
+  font-weight: bold;
+  color: rgb(0, 65, 0);
+}
+a:hover {
+  color: rgb(70, 143, 75);
+  font-size: 21px;
+}
+body{
+  background-image: url('../images/bigbearlakesunset.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.box{
+  background-color: rgba(57, 85, 63, 0.753);
+  text-align: center;
+  font-size: 17px;
+  padding: 25px;
+  margin-top: 50px;
+}
+.container {
+  margin-top: 15px;
+  height: 650px;
+}
+#borderAdj{
+  padding-bottom: 60px;
+}
+.card {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: transparent;
+  border: none;
+}
+.cardContainer{
+  padding: 30px;
+  opacity: 0.90;
+  background-color: rgba(57, 85, 63, 0.753);
+  border-radius: 10px;
+  background-image: url('./../images/WoodPaperBackground.jpg');
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
+
+  /* border: 19px dotted #c905c6; */
+  border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch ;
+}
+.top-right-card {
+  padding: 30px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(187, 212, 187);
+  color: whitesmoke;
+  text-align: center;
+  opacity: 0.8;
+}
+.contact-form {
+  font-family: "Barlow Condensed";
+  color: whitesmoke;
+  background-color: rgba(57, 85, 63, 0.753);
+  padding: 40px;
+}
+.aboutmetext .col-md-6 {
+  background-color: rgba(57, 85, 63, 0.753);
+}
+.navbar{
+  opacity: .8;
+}
+@media screen and (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
