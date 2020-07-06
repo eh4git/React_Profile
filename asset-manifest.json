@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React_Profile/static/css/main.78858dde.chunk.css",
+    "main.js": "/React_Profile/static/js/main.b83766bb.chunk.js",
+    "main.js.map": "/React_Profile/static/js/main.b83766bb.chunk.js.map",
+    "runtime-main.js": "/React_Profile/static/js/runtime-main.7c74dd80.js",
+    "runtime-main.js.map": "/React_Profile/static/js/runtime-main.7c74dd80.js.map",
+    "static/js/2.59a041d2.chunk.js": "/React_Profile/static/js/2.59a041d2.chunk.js",
+    "static/js/2.59a041d2.chunk.js.map": "/React_Profile/static/js/2.59a041d2.chunk.js.map",
+    "index.html": "/React_Profile/index.html",
+    "precache-manifest.8976911a29f6b662ea8dde3157d51aca.js": "/React_Profile/precache-manifest.8976911a29f6b662ea8dde3157d51aca.js",
+    "service-worker.js": "/React_Profile/service-worker.js",
+    "static/css/main.78858dde.chunk.css.map": "/React_Profile/static/css/main.78858dde.chunk.css.map",
+    "static/js/2.59a041d2.chunk.js.LICENSE.txt": "/React_Profile/static/js/2.59a041d2.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/React_Profile/static/media/bigbearlakesunset.c52a43d3.jpg",
+    "static/media/main.css": "/React_Profile/static/media/stars-forest-silhouette.22db8505.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c74dd80.js",
+    "static/js/2.59a041d2.chunk.js",
+    "static/css/main.78858dde.chunk.css",
+    "static/js/main.b83766bb.chunk.js"
+  ]
+}
