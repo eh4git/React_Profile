@@ -62,7 +62,21 @@ const profileText =
             "repository": "https://github.com/vinnielo/StoryTime",
             "image": "../assets/images/storyTime.png"
         },
+        {
+            "name": "Create Your Story RPG",
+            "description": "This full stack application give users the ability to create a unique story while playing a game that has educational mini games. Save the king then chalange him to a game!",
+            "repository": "https://github.com/AnnaxGrace/react-rpg",
+            "image": ""
+        },
     ],
+    "resume":
+    {
+        "pdf": "../../public/docs/WebDevResume.pdf",
+        "word": "../../public/docs/WebDevResume.docx"
+    },
+    "email": "ehirsch760@gmail.com",
+    "phone": "760 420-4308",
+    "location": "Apple Valley, CA 92308"
 
 }
 

@@ -297,12 +297,12 @@ body {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
-  -webkit-animation: fadein 7s;
+  -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
   /* Firefox < 16 */
   /* Internet Explorer */
   /* Opera < 12.1 */
-  animation: fadein 7s;
+  animation: fadein 2s;
 }
 
 @keyframes fadein {

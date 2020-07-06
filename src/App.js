@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './assets/css/main.css';
+import './assets/css/style.css'
 import LandingPage from "./components/LandingPage"
 import MainPage from './components/MainPage';
 
@@ -31,10 +32,10 @@ class App extends Component {
         <Router>
         <div>
           <Switch>
-            <Route exact path={["/"]}>
+            <Route exact path={["/React_Profile"]}>
               <LandingPage />
             </Route>
-            <Route exact path="/profile">
+            <Route exact path="/React_Profile/profile">
               <MainPage />
             </Route>
           </Switch>

@@ -52,7 +52,7 @@ body{
 }
 .container {
   margin-top: 15px;
-  height: 650px;
+  margin-bottom: 60px;
 }
 #borderAdj{
   padding-bottom: 60px;
@@ -92,8 +92,10 @@ body{
 }
 .contact-form {
   font-family: "Barlow Condensed";
-  color: whitesmoke;
-  background-color: rgba(57, 85, 63, 0.753);
+  background-color: #bec8c0;
+  opacity: .85;
+  border: solid 4px #997756;
+  border-radius: 5px;
   padding: 40px;
 }
 .aboutmetext .col-md-6 {
@@ -107,4 +109,13 @@ body{
     margin: 0;
     padding: 0;
   }
+}
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #bec8c0;
+  padding: 30px;
+  opacity: .85;
+  border: solid 4px #997756;
+  border-radius: 5px;
 }
