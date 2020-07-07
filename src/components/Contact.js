@@ -1,25 +1,35 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function Contact() {
-    return (
-        <div class="contact-form container">
-            <form>
-                <div class="form-group">
+export default class Contact extends Component {
+    render() {
+        let profileText = this.props.profileText;
+        return (
+            <div className="contact-form container">
+                <h2 id="contact">Contact Me</h2>
+                {/* <form>
+                <div className="form-group">
                     <label for="contactNameText">Name</label>
-                    <input type="text" class="form-control nameText" id="contactNameText" placeholder="Enter your name." required />
+                    <input type="text" className="form-control nameText" id="contactNameText" placeholder="Enter your name." required />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                     <label for="contactEmailText">Email address</label>
-                    <input type="email" class="form-control emailText" id="contactEmailText" placeholder="yourEmail@example.com"
+                    <input type="email" className="form-control emailText" id="contactEmailText" placeholder="yourEmail@example.com"
                         required />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                     <label for="contactMessageText">Message</label>
-                    <textarea class="form-control messageText" id="contactMessageText" placeholder="Enter your message here."
+                    <textarea className="form-control messageText" id="contactMessageText" placeholder="Enter your message here."
                         rows="10" maxlength="2500" required></textarea>
                 </div>
-                <button type="submit" id="contactFormBtn" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    )
+                <button type="submit" id="contactFormBtn" className="btn btn-primary">Submit</button>
+            </form> */}
+
+                <a href={`mailto: ${profileText.email}?subject=I saw your profile`}>{profileText.email}</a>
+        <p>{profileText.phone} <br/>
+        {profileText.location}
+        </p>
+        <a target="_blank" href={profileText.resume.pdf}>Resume</a>
+            </div>
+        )
+    }
 }
