@@ -71,7 +71,7 @@ const profileText =
     ],
     "resume":
     {
-        "pdf": "../public/docs/WebDevResume",
+        "pdf": "../../public/docs/WebDevResume.pdf",
         "word": "../../public/docs/WebDevResume.docx"
     },
     "email": "ehirsch760@gmail.com",

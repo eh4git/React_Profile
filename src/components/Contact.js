@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import Pdf from "../assets/docs/WebDevResume.pdf";
 
 export default class Contact extends Component {
+    onResumeClick() {
+  window.open(Pdf);
+}
     render() {
         let profileText = this.props.profileText;
         return (
@@ -28,7 +32,7 @@ export default class Contact extends Component {
         <p>{profileText.phone} <br/>
         {profileText.location}
         </p>
-        <a target="_blank" href={profileText.resume.pdf}>Resume</a>
+        <a onClick={this.onResumeClick} target="_blank" >Resume</a>
             </div>
         )
     }
