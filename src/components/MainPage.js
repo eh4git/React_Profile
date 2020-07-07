@@ -5,6 +5,7 @@ import Projects from "./Projects"
 import Contact from "./Contact"
 import Footer from "./Footer";
 import profileText from "../assets/profileText"
+import "../assets/css/style.css"
 
 function MainPage() {
         return (

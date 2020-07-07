@@ -32,10 +32,10 @@ class App extends Component {
         <Router>
         <div>
           <Switch>
-            <Route exact path={["/React_Profile"]}>
+            <Route exact path="/React_Profile">
               <LandingPage />
             </Route>
-            <Route exact path="/React_Profile/profile">
+            <Route exact path="/profile">
               <MainPage />
             </Route>
           </Switch>

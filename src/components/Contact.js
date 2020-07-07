@@ -28,7 +28,7 @@ export default class Contact extends Component {
         <p>{profileText.phone} <br/>
         {profileText.location}
         </p>
-        <a target="_blank" href={profileText.resume.pdf}><i className="fa fa-file-pdf-o"></i></a>
+        <a target="_blank" href={profileText.resume.pdf}>Resume</a>
             </div>
         )
     }
