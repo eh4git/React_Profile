@@ -7,34 +7,31 @@ import MainPage from './components/MainPage';
 // import Pdf from "../../documents/resume.pdf";
 
 
-class App extends Component {
-  state = {
-    currentPage: "LandingPage"
-  };
+export default ()=> {
+
   // onResumeClick() {
   //   window.open(Pdf);
   // }
-  handlePageChange = page => {
-    this.setState({ currentPage: page });
-  };
+  // handlePageChange = page => {
+  //   this.setState({ currentPage: page });
+  // };
 
-  renderPage = () => {
-    switch (this.state.currentPage) {
-      case "LandingPage":
-        return <LandingPage handlePageChange={this.handlePageChange} />;
-      case "MainPage":
-        return <MainPage />;
-      default:
-        break;
-    }
-  };
+  // renderPage = () => {
+  //   switch (this.state.currentPage) {
+  //     case "LandingPage":
+  //       return <LandingPage handlePageChange={this.handlePageChange} />;
+  //     case "MainPage":
+  //       return <MainPage />;
+  //     default:
+  //       break;
+  //   }
+  // };
 
-  render() {
     return (
       <Router>
         <div>
           <Switch>
-            <Route exact path="/React_Profile">
+            <Route exact path="/">
               <LandingPage />
             </Route>
             <Route exact path="/profile">
@@ -46,7 +43,3 @@ class App extends Component {
       </Router>
     );
   }
-
-}
-
-export default App;
