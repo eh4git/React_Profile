@@ -5,7 +5,7 @@ export default class NavBar extends Component {
     let profileText = this.props.profileText;
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/React_Profile">Profile Page</a>
+        <a className="navbar-brand" href="/">Profile Page</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
