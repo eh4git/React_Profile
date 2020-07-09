@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './assets/css/main.css';
 import './assets/css/style.css'
 import LandingPage from "./components/LandingPage"
@@ -31,10 +31,10 @@ export default ()=> {
       <Router>
         <div>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/React_Profile">
               <LandingPage />
             </Route>
-            <Route path="/profile">
+            <Route exact path="/profile">
               <MainPage  />
             </Route>
           </Switch>
