@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.7117a0ca.chunk.css",
-    "main.js": "/static/js/main.a86ceee7.chunk.js",
-    "main.js.map": "/static/js/main.a86ceee7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.69c20623.js",
-    "runtime-main.js.map": "/static/js/runtime-main.69c20623.js.map",
-    "static/js/2.b6bc0714.chunk.js": "/static/js/2.b6bc0714.chunk.js",
-    "static/js/2.b6bc0714.chunk.js.map": "/static/js/2.b6bc0714.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0074421658655629d3d41fb08ffb9c98.js": "/precache-manifest.0074421658655629d3d41fb08ffb9c98.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.7117a0ca.chunk.css.map": "/static/css/main.7117a0ca.chunk.css.map",
-    "static/js/2.b6bc0714.chunk.js.LICENSE.txt": "/static/js/2.b6bc0714.chunk.js.LICENSE.txt",
-    "static/media/WeatherDashboard4.png": "/static/media/WeatherDashboard4.68f8f684.png",
-    "static/media/WebDevResume.pdf": "/static/media/WebDevResume.c10881a8.pdf",
-    "static/media/style.css": "/static/media/bigbearlakesunset.c52a43d3.jpg",
-    "static/media/YouMBdApp.png": "/static/media/YouMBdApp.90f7692c.png",
-    "static/media/onceUponAnAdventure.png": "/static/media/onceUponAnAdventure.6a640c4a.png",
-    "static/media/main.css": "/static/media/stars-forest-silhouette.22db8505.gif",
-    "static/media/storyTime.png": "/static/media/storyTime.769453e7.png"
+    "main.css": "/React_Profile/static/css/main.78858dde.chunk.css",
+    "main.js": "/React_Profile/static/js/main.4ae536cc.chunk.js",
+    "main.js.map": "/React_Profile/static/js/main.4ae536cc.chunk.js.map",
+    "runtime-main.js": "/React_Profile/static/js/runtime-main.7c74dd80.js",
+    "runtime-main.js.map": "/React_Profile/static/js/runtime-main.7c74dd80.js.map",
+    "static/js/2.b6bc0714.chunk.js": "/React_Profile/static/js/2.b6bc0714.chunk.js",
+    "static/js/2.b6bc0714.chunk.js.map": "/React_Profile/static/js/2.b6bc0714.chunk.js.map",
+    "index.html": "/React_Profile/index.html",
+    "precache-manifest.6b716b821ab7232709b104f1d9861861.js": "/React_Profile/precache-manifest.6b716b821ab7232709b104f1d9861861.js",
+    "service-worker.js": "/React_Profile/service-worker.js",
+    "static/css/main.78858dde.chunk.css.map": "/React_Profile/static/css/main.78858dde.chunk.css.map",
+    "static/js/2.b6bc0714.chunk.js.LICENSE.txt": "/React_Profile/static/js/2.b6bc0714.chunk.js.LICENSE.txt",
+    "static/media/WeatherDashboard4.png": "/React_Profile/static/media/WeatherDashboard4.68f8f684.png",
+    "static/media/WebDevResume.pdf": "/React_Profile/static/media/WebDevResume.c10881a8.pdf",
+    "static/media/style.css": "/React_Profile/static/media/bigbearlakesunset.c52a43d3.jpg",
+    "static/media/YouMBdApp.png": "/React_Profile/static/media/YouMBdApp.90f7692c.png",
+    "static/media/onceUponAnAdventure.png": "/React_Profile/static/media/onceUponAnAdventure.6a640c4a.png",
+    "static/media/main.css": "/React_Profile/static/media/stars-forest-silhouette.22db8505.gif",
+    "static/media/storyTime.png": "/React_Profile/static/media/storyTime.769453e7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.69c20623.js",
+    "static/js/runtime-main.7c74dd80.js",
     "static/js/2.b6bc0714.chunk.js",
-    "static/css/main.7117a0ca.chunk.css",
-    "static/js/main.a86ceee7.chunk.js"
+    "static/css/main.78858dde.chunk.css",
+    "static/js/main.4ae536cc.chunk.js"
   ]
 }
