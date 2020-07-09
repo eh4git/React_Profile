@@ -34,7 +34,7 @@ export default ()=> {
             <Route exact path="/React_Profile">
               <LandingPage />
             </Route>
-            <Route path="/React_Profile/profile">
+            <Route exact path="/profile">
               <MainPage  />
             </Route>
           </Switch>
