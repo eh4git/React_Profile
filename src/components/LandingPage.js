@@ -24,7 +24,7 @@ return (
             </div>
             <div className="line bottomLine"></div>
             <div id="buttonInsertSpace">
-           <ViewProfileBtn onclick={props.handlePageChange}/>
+           <ViewProfileBtn />
             </div>
           </div>
         </div>
