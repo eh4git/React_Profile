@@ -36,7 +36,6 @@ export default ()=> {
             </Route>
             <Route exact path="/profile">
               <MainPage  />
-              {/* resume={this.onResumeClick} */}
             </Route>
           </Switch>
         </div>
