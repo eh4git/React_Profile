@@ -34,7 +34,7 @@ export default ()=> {
             <Route exact path="/">
               <LandingPage />
             </Route>
-            <Route exact path="/profile">
+            <Route path="/profile">
               <MainPage  />
             </Route>
           </Switch>
