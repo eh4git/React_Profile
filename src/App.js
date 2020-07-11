@@ -30,14 +30,14 @@ export default ()=> {
     return (
       <Router>
         <div>
-          <Switch>
+        
             <Route exact path="/React_Profile">
               <LandingPage />
             </Route>
             <Route exact path="/profile">
               <MainPage  />
             </Route>
-          </Switch>
+       
         </div>
       </Router>
     );

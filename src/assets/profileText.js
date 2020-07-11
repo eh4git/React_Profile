@@ -74,10 +74,13 @@ const profileText =
         "pdf": "../../public/docs/WebDevResume.pdf",
         "word": "../../public/docs/WebDevResume.docx"
     },
+    "name": "Erik Hirsch",
     "email": "ehirsch760@gmail.com",
     "phone": "760 420-4308",
-    "location": "Apple Valley, CA 92308"
+    "location": "Apple Valley, CA 92308",
 
+    "homePage": "/React_Profile",
+    "profilePage": "/profile"
 }
 
 export default profileText;
