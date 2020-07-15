@@ -32,7 +32,7 @@ export default class Contact extends Component {
         <p>{profileText.phone} <br/>
         {profileText.location}
         </p>
-        <a onClick={this.onResumeClick} target="_blank" >Resume</a>
+        <a onClick={this.onResumeClick} target="_blank" >My Resume</a>
             </div>
         )
     }
