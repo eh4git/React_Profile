@@ -9,10 +9,10 @@ export default class Projects extends Component {
             <div>
                 <h2 id="projects">Projects</h2>
                 <div className="row">
-                    {profileText.projects.map((item) => {
+                    {profileText.projects.map((item, i) => {
                         console.log(item.image)
                         return (
-                            <div className="col-md-6 card">
+                            <div className="col-md-6 card" key={i}>
                                 <div className="cardContainer">
                                     <img src={item.image} className="card-img-top" alt={item.name} />
                                     <div className="card-body">

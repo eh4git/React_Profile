@@ -12,18 +12,18 @@ export default class NavBar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            {profileText.profilesections.map((item) => {
+            {profileText.profilesections.map((item, i) => {
               return (
-                <li className="nav-item active">
+                <li className="nav-item active" key={i}>
                   <a className="nav-link" href={item.href}>
                     {item.name}</a>
                 </li>
               )
             })
             }
-            {profileText.profiles.map((item) => {
+            {profileText.profiles.map((item, i) => {
               return (
-                <li className="nav-item">
+                <li className="nav-item" key={i}>
                   <a className="nav-link" href={item.href} target="_blank">My
                 {item.name}</a>
                 </li>

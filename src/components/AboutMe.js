@@ -10,9 +10,9 @@ export default class AboutMe extends Component {
                     {profileText.aboutMe}
                 </p>
                 <div className="row">
-                    {profileText.repositories.map((item) => {
+                    {profileText.repositories.map((item, i) => {
                         return (
-                            <div className="sub-col col-md-4">
+                            <div className="sub-col col-md-4" key={i}>
                                 <p><a href={item.href}>{item.name}</a></p>
                             </div>
                         )
