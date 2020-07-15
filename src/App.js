@@ -31,10 +31,13 @@ export default ()=> {
       <Router>
         <div>
           <Switch>
-            <Route exact path={["/", "/React_Profile"]} component={LandingPage}/>
-            
-            <Route exact path="/React_Profile/profile" component={MainPage}/>
-              
+            <Route exact path="/React_Profile">
+              <LandingPage />
+              <MainPage />
+            </Route>
+            {/* <Route exact path="/profile">
+              <MainPage  />
+            </Route> */}
           </Switch>
         </div>
       </Router>
