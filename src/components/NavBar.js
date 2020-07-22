@@ -24,7 +24,7 @@ export default class NavBar extends Component {
             {profileText.profiles.map((item, i) => {
               return (
                 <li className="nav-item" key={i}>
-                  <a className="nav-link" href={item.href} target="_blank">My
+                  <a className="nav-link" href={item.href} rel="noopener noreferrer" target="_blank">My
                 {item.name}</a>
                 </li>
               )

@@ -1,45 +1,45 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './assets/css/main.css';
 import './assets/css/style.css'
 import LandingPage from "./components/LandingPage"
 import MainPage from './components/MainPage';
-// import Pdf from "../../documents/resume.pdf";
 
 
-export default ()=> {
 
-  // onResumeClick() {
-  //   window.open(Pdf);
-  // }
-  // handlePageChange = page => {
-  //   this.setState({ currentPage: page });
-  // };
+export default () => {
 
-  // renderPage = () => {
-  //   switch (this.state.currentPage) {
-  //     case "LandingPage":
-  //       return <LandingPage handlePageChange={this.handlePageChange} />;
-  //     case "MainPage":
-  //       return <MainPage />;
-  //     default:
-  //       break;
-  //   }
-  // };
+  const [mainHide, setMainHide] = useState(true);
 
-    return (
-      <Router>
-        <div>
-          <Switch>
-            <Route exact path="/React_Profile">
-              <LandingPage />
-              <MainPage />
-            </Route>
-            {/* <Route exact path="/profile">
-              <MainPage  />
-            </Route> */}
-          </Switch>
-        </div>
-      </Router>
-    );
+  function handleButtonClick() {
+    setMainHide(false)
   }
+
+  function handlePageHide() {
+    switch (mainHide) {
+      case true:
+        return (
+          <Router>
+            <div>
+              <Route exact path="/React_Profile">
+                <LandingPage handleButtonClick={handleButtonClick} />
+              </Route>
+            </div>
+          </Router>
+        )
+      case false:
+        return (
+          <Router>
+            <div>
+              <Route exact path="/React_Profile">
+                <MainPage />
+              </Route>
+            </div>
+          </Router>
+        )
+      default:
+        return
+    }
+  }
+  return (handlePageHide());
+}

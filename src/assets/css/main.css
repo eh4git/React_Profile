@@ -297,12 +297,16 @@ body {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
-  -webkit-animation: fadein 2s;
+  -webkit-animation: fadein 10s;
   /* Safari, Chrome and Opera > 12.1 */
   /* Firefox < 16 */
   /* Internet Explorer */
   /* Opera < 12.1 */
-  animation: fadein 2s;
+  animation: fadein 10s;
+}
+
+#viewProfileBtn:hover {
+  color: white;
 }
 
 @keyframes fadein {
