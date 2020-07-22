@@ -83,7 +83,7 @@ const profileText =
     "phone": "760 420-4308",
     "location": "Apple Valley, CA 92308",
 
-    "homePage": "/",
+    "homePage": "/React_Profile",
     "profilePage": "/profile"
 }
 
