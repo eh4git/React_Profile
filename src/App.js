@@ -21,7 +21,7 @@ export default () => {
         return (
           <Router>
             <div>
-              <Route exact path="/React_Profile">
+              <Route exact path="/">
                 <LandingPage handleButtonClick={handleButtonClick} />
               </Route>
             </div>
@@ -31,7 +31,7 @@ export default () => {
         return (
           <Router>
             <div>
-              <Route exact path="/React_Profile">
+              <Route exact path="/">
                 <MainPage />
               </Route>
             </div>
