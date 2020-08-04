@@ -18,7 +18,7 @@ export default class Projects extends Component {
                                     <div className="card-body">
                                         <h4 className="card-title">{item.name}</h4>
                                         <p className="card-text">
-                                            {item.description}
+                                            {item.description}<br/>
                                             <a href={item.repository}>Github Repository</a>
                                         </p>
                                     </div>

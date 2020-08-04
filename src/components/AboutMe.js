@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
                 <p className="portfolioparagraph">
                     {profileText.aboutMe}
                 </p>
-                <div className="row">
+                {/* <div className="row">
                     {profileText.repositories.map((item, i) => {
                         return (
                             <div className="sub-col col-md-4" key={i}>
@@ -17,7 +17,7 @@ export default class AboutMe extends Component {
                             </div>
                         )
                     })}
-                </div>
+                </div> */}
             </div>
         )
     }
